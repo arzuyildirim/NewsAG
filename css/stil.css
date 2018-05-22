@@ -1,0 +1,87 @@
+  * {
+  box-sizing: border-box;
+  transition: all .8s ease;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Navigation */
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-header {
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+}
+.navbar-brand {
+  float: none;
+  display: inline-block;
+  padding: 10px;
+  height: 10px;
+  margin: 5px 0px;
+  font-size: 4.9em;
+  font-weight: bold;
+  font-family: 'Droid Serif', serif;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+/* News Pages*/
+
+.newscontent {
+  background: url('../img/back.jpg');
+}
+
+.categoryHeader {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 4.6em;
+  font-weight: bold;
+  color: red;
+  padding: 25px 0px;
+}
+
+.newscol {
+  
+  margin-left: 770px;
+}
+
+.thumbnail {
+  margin-bottom: 10px;
+  background: url('../img/scratchpaper.png');
+  background-color: #f7f7f7;
+  border: 3px solid #aaa;
+}
+
+.articleImage {
+  height: 100%;
+  vertical-align: middle;
+  border: 5px solid black;
+  margin: auto;
+}
+
+
+.articleTitle {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.9em;
+}
+
+.articleTitle:hover {
+  font-family: 'Droid Serif', serif;
+  transition: all .1s ease;
+  text-decoration: underline;
+  color: #3572a3;
+}
+
+.articleDescription {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 1.15em;
+}
+
